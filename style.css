@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', serif;
+    box-sizing: border-box;
+    background-color: rgb(254, 251, 247);
+}
+
+.NavBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    margin-right: 1%;
+}
+
+.NavBar h1 {
+    margin: 0;
+    font-size: 20px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    margin-left: 1%;
+    white-space: nowrap;
+}
+
+.NavBar img {
+    width: 10%; /* Adjusted width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    background-color: #ffffff;
+    margin-left: 1%;
+
+}
+
+h1 {
+    margin-left: 2%;
+    margin-top: 3rem;
+   
+
+    font-size: 300%;
+  
+}
+
+p {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 200%;
+}
+
+h3 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color: rgb(75, 209, 164);
+    font-size: 150%;
+}
+
+h4 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color: rgb(1, 26, 18);
+}
+
+.board img {
+    display: flex;
+    width: 50%;
+    height: auto;
+    max-width: fit-content;
+    margin-left: 50%;
+    margin-top: -10%; /* Adjust the negative margin-top value to move the image upward */
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .NavBar {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .NavBar h1 {
+        margin-right: 0;
+        margin-left: 0;
+        white-space: nowrap;
+    }
+
+    img {
+        width:10%;
+        height: auto;
+        margin-left: 0;
+    }
+}
